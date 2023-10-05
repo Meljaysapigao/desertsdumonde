@@ -73,3 +73,10 @@ footer div{
     justify-content: center;
     font-size: small;
 }
+/*responsive*/
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+}
